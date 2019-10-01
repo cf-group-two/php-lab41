@@ -52,6 +52,7 @@ You shoud now see a green pipeline.
 - You do not need a build.
 
 ## credits and contributions
+- Jack Daniel Kinne
 - Brandon Hurrington
 - Padmapriya Ganapathi
 - Trevor Dobson
