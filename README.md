@@ -3,6 +3,9 @@
 - Authors: Trevor Dobson, Jack Daniel Kinne, Brandon Hurrington, Padmapriya Ganapathi.
 - Challenge by: CodeFellows.
 
+## Deployed link:
+[link here](http://php-env.a5b8prwjvw.us-west-2.elasticbeanstalk.com/)
+
 
 ## Challenge
 - Using only the instructions provided to you, implement a working CI/CD Pipeline
@@ -26,13 +29,8 @@ Setup github repo as the source.
 - Choose repo
 ![step](step3.png)
 
-### Step four:
-- Choose add build
-![step](step4.png)
-
-- Deploy an Elastic beanstalk environment for PHP, selecting free teir options.
-- Select Standard PHP low cost options.
-- Select Amazon Linux 2 as the operating system.
+### (there is no step four)
+- This app does not require a build stage.
 
 ### Step five:
 Choose application.  We recommend you choose the sample application at first, to confirm deployment works.
@@ -50,6 +48,8 @@ You shoud now see a green pipeline.
 ## gotchas
 - PROBLEM: in the buildspec.yml, ensure that PHP targets 7.2, as that is the latest version supported on the ENV for Elastic Beanstalk. DO NOT USE the class repo offering of the buildspec.yml file.
 - SOLUTION: Ensure you are using an exact copy of the buildspec.yml included in this repo.
+
+- You do not need a build.
 
 ## credits and contributions
 - Brandon Hurrington
